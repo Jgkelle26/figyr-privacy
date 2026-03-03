@@ -39,22 +39,18 @@
 
   <h2>How Your Content Is Stored</h2>
   <p>Everything you create in Figyr — notes, drawings, canvas layouts — is saved in a local database on your device. This data never leaves your phone unless you sign in to enable sync.</p>
-  <p>When you delete the app, all locally stored data is permanently deleted.</p>
+  <p>If you are not signed in, deleting the app permanently removes all of your data.</p>
 
   <h2>Cloud Sync (Signed-In Users Only)</h2>
-  <p>If you create an account, your canvases and notes (including text, drawings, and link previews) are encrypted in transit and stored on servers provided by <a href="https://supabase.com/privacy" target="_blank">Supabase</a>. This allows your content to sync across your devices. Your content is associated with your account and is not accessible to other users.</p>
-  <p>Signing out of Figyr does not delete your data from the server. To request deletion of your account and all associated data, contact us at the address below.</p>
+  <p>If you create an account, your canvases and notes (including text, drawings, and link previews) are encrypted in transit and stored securely on our servers. This allows your content to sync across your devices. Your content is associated with your account and is not accessible to other users.</p>
+  <p>Signing out of Figyr does not delete your data from the server. If you want to permanently delete your account and all associated data, use the <strong>Delete Account</strong> option in the app's account settings.</p>
 
   <h2>Link Previews</h2>
   <p>When you add a link to a canvas, Figyr fetches a preview (title, description, thumbnail) from that URL. For links from Twitter/X and TikTok, this request goes through their official oEmbed APIs. For other URLs, the page is fetched directly. Your IP address will be visible to those external services when this happens. Preview data is cached locally and synced to your account if you are signed in.</p>
 
-  <h2>Data Export</h2>
-  <p>Figyr includes an optional export feature that generates a local HTML file of your notes and drawings. This file is created entirely on your device. We do not transmit it — you choose where it goes via the iOS share sheet.</p>
-
-  <h2>Third-Party Services</h2>
+<h2>Third-Party Services</h2>
   <p>Figyr uses the following third-party services:</p>
   <ul>
-    <li><strong>Supabase</strong> — account authentication and cloud sync (signed-in users only)</li>
     <li><strong>Apple Sign-In</strong> — optional sign-in method</li>
     <li><strong>Twitter/X and TikTok oEmbed APIs</strong> — link preview metadata (when you add those links)</li>
   </ul>
