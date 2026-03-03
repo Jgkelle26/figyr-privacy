@@ -22,32 +22,52 @@
 </head>
 <body>
   <h1>Privacy Policy — Figyr</h1>
-  <p class="updated">Last updated: February 25, 2026</p>
+  <p class="updated">Last updated: March 2, 2026</p>
 
   <h2>Overview</h2>
-  <p>Figyr is a personal canvas app for notes and drawings. We built it with one rule: your content stays on your device.</p>
+  <p>Figyr is a personal canvas app for capturing notes and drawings. By default, everything you create stays on your device. You can optionally create an account to sync your content across multiple devices.</p>
 
   <h2>Data We Collect</h2>
-  <p><strong>None.</strong></p>
-  <p>Figyr does not collect, store, transmit, or share any personal data. There are no user accounts, no sign-ups, and no servers.</p>
+  <p><strong>Without an account:</strong> Figyr collects no personal data. All content is stored locally on your device.</p>
+  <p><strong>With an account (optional):</strong> When you sign in with Apple, we receive the following:</p>
+  <ul>
+    <li>A unique user ID</li>
+    <li>Your name provided on first sign-in</li>
+    <li>Your email address </li>
+  </ul>
+  <p>This information is used solely to identify your account and sync your content across your devices. We do not sell or share it with third parties.</p>
 
-  <h2>How Your Data Is Stored</h2>
-  <p>Everything you create in Figyr — notes, drawings, canvas layouts — is saved exclusively in a local database on your device using on-device SQLite storage. This data never leaves your phone unless you choose to export it.</p>
-  <p>When you delete the app, all of your data is permanently deleted along with it.</p>
+  <h2>How Your Content Is Stored</h2>
+  <p>Everything you create in Figyr — notes, drawings, canvas layouts — is saved in a local database on your device. This data never leaves your phone unless you sign in to enable sync.</p>
+  <p>When you delete the app, all locally stored data is permanently deleted.</p>
+
+  <h2>Cloud Sync (Signed-In Users Only)</h2>
+  <p>If you create an account, your canvases and notes (including text, drawings, and link previews) are encrypted in transit and stored on servers provided by <a href="https://supabase.com/privacy" target="_blank">Supabase</a>. This allows your content to sync across your devices. Your content is associated with your account and is not accessible to other users.</p>
+  <p>Signing out of Figyr does not delete your data from the server. To request deletion of your account and all associated data, contact us at the address below.</p>
+
+  <h2>Link Previews</h2>
+  <p>When you add a link to a canvas, Figyr fetches a preview (title, description, thumbnail) from that URL. For links from Twitter/X and TikTok, this request goes through their official oEmbed APIs. For other URLs, the page is fetched directly. Your IP address will be visible to those external services when this happens. Preview data is cached locally and synced to your account if you are signed in.</p>
 
   <h2>Data Export</h2>
-  <p>Figyr includes an optional "Export My Figyers" feature that generates a local HTML file containing your notes and drawings. This file is created entirely on your device. Figyr does not transmit it anywhere — you choose where it goes (Files, email, AirDrop, etc.) through the iOS share sheet. Any sharing of that file is your action, not ours.</p>
+  <p>Figyr includes an optional export feature that generates a local HTML file of your notes and drawings. This file is created entirely on your device. We do not transmit it — you choose where it goes via the iOS share sheet.</p>
 
   <h2>Third-Party Services</h2>
-  <p>Figyr does not use any third-party analytics, advertising, crash reporting, or tracking services.</p>
+  <p>Figyr uses the following third-party services:</p>
+  <ul>
+    <li><strong>Supabase</strong> — account authentication and cloud sync (signed-in users only)</li>
+    <li><strong>Apple Sign-In</strong> — optional sign-in method</li>
+    <li><strong>Twitter/X and TikTok oEmbed APIs</strong> — link preview metadata (when you add those links)</li>
+  </ul>
+  <p>Figyr does not use any analytics, advertising, crash reporting, or behavioral tracking services.</p>
 
   <h2>Permissions</h2>
-  <p>Figyr does not request access to your camera, microphone, contacts, location, or any other sensitive device features.</p>
+  <p>Figyr does not request access to your camera, microphone, contacts, or location.</p>
 
   <h2>Children's Privacy</h2>
-  <p>Figyr does not collect any data from anyone, including children under 13.</p>
+  <p>Figyr is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
 
   <h2>Changes to This Policy</h2>
-  <p>If this policy ever changes, the updated version will be posted at this URL with a new date.</p>
+  <p>If this policy changes, the updated version will be posted at this URL with a new date.</p>
+
 </body>
 </html>
